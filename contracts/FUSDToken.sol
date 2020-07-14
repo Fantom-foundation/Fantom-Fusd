@@ -12,7 +12,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
  */
 contract FusdToken is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, ERC20Pausable {
     // create instance of the fUSD token
-    constructor () public ERC20Detailed("Fantom fUSD", "FUSD", 18) {
+    constructor () public ERC20Detailed("Fantom StableCoin USD", "FUSD", 18) {
         // mint single token to begin with?
     }
 }
